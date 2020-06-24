@@ -17867,5 +17867,29 @@ repositories:
       url: https://github.com/zivid/zivid-ros.git
       version: master
     status: maintained
+  cmw_agent:
+    doc:
+      type: git
+      url: file:///home/ephson/catkin_bloom/src/cmw_agent
+    source:
+      type: git
+      url: file:///home/ephson/catkin_bloom/src/cmw_agent
+    status: developed
+  cmw_msgs:
+    doc:
+      type: git
+      url: file:///home/ephson/catkin_bloom/src/cmw_msgs
+    source:
+      type: git
+      url: file:///home/ephson/catkin_bloom/src/cmw_msgs
+    status: developed
+  path_msgs:
+    doc:
+      type: git
+      url: file:///home/ephson/catkin_bloom/src/path_msgs
+    source:
+      type: git
+      url: file:///home/ephson/catkin_bloom/src/path_msgs
+    status: developed
 type: distribution
 version: 2
