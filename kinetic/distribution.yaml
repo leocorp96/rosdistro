@@ -17867,29 +17867,15 @@ repositories:
       url: https://github.com/zivid/zivid-ros.git
       version: master
     status: maintained
-  cmw_agent:
-    doc:
-      type: git
-      url: file:///home/ephson/catkin_bloom/src/cmw_agent
+  
+  cmw_description:
+    release:
+      tags:
+        release: release/kinetic/{package}
+      url: http://192.168.2.1:3000/PACKAGING/cmw_description-release.git
     source:
       type: git
-      url: file:///home/ephson/catkin_bloom/src/cmw_agent
-    status: developed
-  cmw_msgs:
-    doc:
-      type: git
-      url: file:///home/ephson/catkin_bloom/src/cmw_msgs
-    source:
-      type: git
-      url: file:///home/ephson/catkin_bloom/src/cmw_msgs
-    status: developed
-  path_msgs:
-    doc:
-      type: git
-      url: file:///home/ephson/catkin_bloom/src/path_msgs
-    source:
-      type: git
-      url: file:///home/ephson/catkin_bloom/src/path_msgs
+      url: http://192.168.2.1:3000/CMW/cmw_description.git
     status: developed
 type: distribution
 version: 2
